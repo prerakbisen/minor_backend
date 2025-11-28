@@ -14,7 +14,7 @@ app.use(express.json());
 const db = mysql.createConnection({
   host: "localhost",
   user: "root",
-  password: "Prerak#17.com",   // keep your password here
+  password: "",   // keep your password here
   database: "smart_pickup"
 });
 
@@ -197,3 +197,4 @@ const PORT = 5000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+
